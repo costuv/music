@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-container {
+    padding: 20px;
+}
+
+.player-container {
+    background: #282828;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.now-playing {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+#current-track-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.track-info {
+    text-align: left;
+}
+
+#current-track-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background: #1DB954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #1ed760;
+}
+
+/* Remove all lyrics-related styles */
+
+.loading-indicator {
+    min-height: 200px;
+}
